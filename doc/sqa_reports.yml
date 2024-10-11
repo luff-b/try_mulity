@@ -1,6 +1,27 @@
 Applications:
     try_mulity:
         app_types:
-            - TryMulityApp
+            - Try Mulity
         content_directory: ${ROOT_DIR}/doc/content
+        remove:
+            - ${MOOSE_DIR}/framework/doc/remove.yml
         log_default: WARNING
+        show_warning: false
+
+Documents:
+    software_requirements_specification: sqa/try_mulity_srs.md
+    software_design_description: sqa/try_mulity_sdd.md
+    software_test_plan: sqa/try_mulity_stp.md
+    requirements_traceability_matrix: sqa/try_mulity_rtm.md
+    verification_validation_report: sqa/try_mulity_vvr.md
+    failure_analysis_report: sqa/try_mulity_far.md
+    software_library_list: sqa/try_mulity_sll.md
+    log_default: WARNING
+    show_warning: false
+
+Requirements:
+    try_mulity:
+        directories:
+            - ${ROOT_DIR}/test
+        log_default: WARNING
+        show_warning: false

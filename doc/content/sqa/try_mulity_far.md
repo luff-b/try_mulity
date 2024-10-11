@@ -1,0 +1,1 @@
+!template load file=sqa/app_far.md.template app=Try Mulity category=try_mulity
